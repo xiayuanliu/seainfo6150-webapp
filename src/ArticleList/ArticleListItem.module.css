@@ -1,0 +1,12 @@
+.header{
+    color: red;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.info{
+    display: flex;
+    justify-content:  space-between;
+}
