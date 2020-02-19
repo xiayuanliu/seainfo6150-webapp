@@ -1,18 +1,29 @@
-.container {
-    background: #eee;
-    border: 1px solid #c00;
-    margin-bottom: 20px;
-    padding: 10px;
-    position: relative;
-}
 
 .title {
-    color: #c00;
-    font-size: 2rem;
-    margin: .5rem 0;
+    color:firebrick;
+    font-size: 50px;
 }
-
+.text{
+    font-size: 25px;
+}
 .pubDate {
     font-weight: bold;
-    font-size: smaller;
+    font-size: 25px;
+}
+.button{
+    margin-right: 10px;
+    margin-bottom: 50px;
+    float:right;
+}
+
+.image{
+    margin-top: 25px;
+    margin-right: 20px;
+    margin-bottom: 100px;
+    margin-left: 20px;
+    float: left;
+}
+
+.clear{
+    clear: both;
 }

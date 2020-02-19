@@ -1,0 +1,7 @@
+.image{
+    border: 20px solid;
+    border-color: firebrick;
+    border-radius: 50%;
+    width:  220px;
+    height: 120px;
+}
