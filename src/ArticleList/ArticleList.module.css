@@ -1,4 +1,12 @@
 .bigBack {
+    display: grid;
+    column-count: 3;
+  
+
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+
     padding-top: 20px;
     padding-right: 20px;
     padding-bottom: 20px;

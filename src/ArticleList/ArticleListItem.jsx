@@ -5,11 +5,11 @@ import ArticleImage from "./AritcleImage"
 
 const ArticleListItem = props => {
   return (
-      <div>
+      <div className={styles.container}>
         <div className = {styles.image}>
           <ArticleImage url = {props.article.image} title = {props.article.title} />
         </div>
-        <div>
+        <div  className={styles.content}>
           <h3 className={styles.title}>{props.article.title}</h3>
           <p className={styles.text}>{props.article.shortText}</p>
           <time className={styles.pubDate} dateTime={props.article.pubYear}>{props.article.pubDate}</time>
