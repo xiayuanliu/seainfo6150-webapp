@@ -5,3 +5,31 @@
     width:  220px;
     height: 120px;
 }
+@media only screen and (max-width: 2560px) {  
+    [class*="image"] {
+        border: 70%;
+        width: 70%;  
+        height:70%;
+        border-radius: 50%;
+    }
+}  
+
+
+@media only screen and (min-width: 768px) {  
+    [class*="image"] {
+        font-size: 70%;
+        width: 70%;  
+        height:70%;
+        border-radius: 50%;
+    }  
+}  
+
+
+@media only screen and (min-width: 1024px) { 
+    [class*="image"] {
+        font-size: 70%;
+        width: 70%;  
+        height:70%;
+        border-radius: 50%;
+    } 
+}

@@ -1,5 +1,8 @@
 .container{
-    height: 100px;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+
 }
 
 
@@ -9,10 +12,7 @@
     font-size: 40px;
     width: 400px;
 }
-.content{
-    height:400px;
 
-}
 .text{
     font-size: 20px;
     margin-top: 50px;
@@ -23,8 +23,7 @@
     font-size: 25px;
 }
 .button{
-    margin-right: 10px;
-    float: right;
+    height:130px;
 }
 
 .image{
@@ -37,4 +36,89 @@
 
 .clear{
     clear: both;
+}
+
+@media only screen and (max-width: 2560px) { 
+    [class*="image"] {  
+        width: 70%;
+        height:70%;
+    }  
+    [class*="title"] {  
+        font-size: 120%;  
+        width: 70%; 
+        color:purple;
+        font-family: Courier New; 
+    }  
+    [class*="text"] {  
+        font-size: 120%;  
+        width: 80%;  
+        color:green;
+        font-style: italic;
+    }  
+    [class*="date"] {  
+        width: 30%;  
+        font-size: 120%;  
+        color:orange;
+        font-style: italic; 
+    }  
+    [class*="container"] {  
+        width: 70%;  
+    }  
+}  
+
+
+@media only screen and (min-width: 768px) {  
+    [class*="image"] {  
+        width: 70%;  
+    }  
+    [class*="title"] {  
+        font-size: 120%;  
+        width: 70%;
+        color:blue;
+        font-family: Courier New;
+    }  
+    [class*="text"] {  
+        font-size: 120%;  
+        width: 80%;
+        color:green;
+        font-weight: bold;   
+    }  
+    [class*="date"] {  
+        width: 50%;  
+        font-size: 120%;
+        color:orange;
+        font-style: italic; 
+    }  
+    [class*="container"] {  
+        width: 100%;  
+    }  
+}  
+
+
+@media only screen and (min-width: 1024px) { 
+    [class*="image"] {  
+        width: 70%;  
+    }  
+    [class*="title"] {  
+        font-size: 150%;  
+        width: 70%; 
+        color:gray;
+        font-family: Courier New; 
+    }  
+    [class*="text"] {  
+        font-size: 150%;  
+        width: 80%;  
+        color:green;
+        font-style: italic;
+    }  
+    [class*="date"] {  
+        width: 50%;  
+        font-size: 150%; 
+        color:orange;
+        font-style: italic;  
+    }  
+    [class*="container"] {  
+        width: 70%; 
+        height: 70%; 
+    }  
 }

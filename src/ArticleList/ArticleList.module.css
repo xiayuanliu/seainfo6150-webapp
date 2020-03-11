@@ -1,6 +1,8 @@
 .bigBack {
     display: grid;
-    column-count: 3;
+    grid-template-areas: "a a a";
+    grid-gap: 10px;
+    grid-auto-columns: auto;
   
 
     display:flex;
@@ -29,6 +31,9 @@
     margin-right: 10px;
     margin-bottom: 50px;
     margin-left: 10px;
+
+    width: 420px;
+    height: 840px;
 
     box-shadow: 0px 10px 30px 5px rgb(63, 63, 63);
 
